@@ -1,0 +1,28 @@
+{
+  "net_type": "Inceptionresnet",
+  "pretrained": true ,
+  "weight_path": null,
+  "dataframe" : "/home/vinhng/EYESCAN/eyescan_findings/Vinh_train.csv",
+  "target": "filename",
+  "classes": [
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P11",
+    "Others"
+  ],
+  "image_folder": "/home/vinhng/EYESCAN/eyescan_findings/eyescan_images",
+  "model_path": "/home/vinhng/EYESCAN/RetinalDisease/models",
+  "size": 512,
+  "epoch": 100,
+  "lr": 0.0002,
+  "factor": 0.1,
+  "patience": 10,
+  "step_size": 5,
+  "loss": "focal-loss",
+  "batch_size": 8,
+  "gamma": 2,
+  "grad_param_index": 338,
+  "grad_final_conv": "layer4"
+}
