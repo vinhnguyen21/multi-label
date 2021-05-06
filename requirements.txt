@@ -5,7 +5,7 @@ imgaug==0.3.0
 numpy==1.16.0
 opencv-python==4.1.1.26
 scikit-learn==0.19.0
-flask-cors==3.0.7
+flask-cors==3.0.9
 gunicorn==19.9.0
 efficientnet-pytorch==0.5.0
 iterative-stratification==0.1.6
